@@ -8,6 +8,7 @@ services:
     ports:
       - "8081:8081"
     environment:
+      PORT: 8081
       TZ: 'Asia/Shanghai'
       OPEN_AI_API_KEY: 'YOUR API KEY'
       MODEL: 'gpt-3.5-turbo'
